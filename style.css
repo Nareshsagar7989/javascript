@@ -1,0 +1,15 @@
+.operation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.operation button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(159, 92, 11);
+    border-radius: 4px;
+    color: white;
+}
