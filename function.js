@@ -30,3 +30,19 @@ function greet() {
 greet();
 document.write(`<br> Hello ,my name is ${name}`);
 console.log(`Hello ,my name is ${name}`);
+
+// const demo = () =>{
+//     document.getElementById("text");
+//     text.innerHTML = "Welcome to javascript";
+// }
+let h = document.getElementById("text");
+let button = document.getElementsByTagName("button")[0];
+button.addEventListener("click",() =>{
+
+    h.innerHTML = "Welcome to javascript";
+});
+
+function color(){
+    document.body.style.background = "yellow";
+    document.body.style.color = "red";
+}
