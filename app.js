@@ -11,5 +11,14 @@ var a = 90;
 var a = 100;    
 console.log(a);
 let b = 50; 
-const c
+const c=3;
 console.log(`value of b is ${b}`);
+//data types
+//1.primitive data types
+//number,string,boolean,null,undefined,symbol
+//2.non-primitive data types
+//object,array,function
+//to know data type of variable
+//typeof operator
+Date();
+
